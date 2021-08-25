@@ -19,9 +19,14 @@
       "AllDigitalRewards\\CountryMapper\\": "src"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "AllDigitalRewards\\Tests\\": "./tests"
+    }
+  },
   "scripts": {
-    "test": "phpunit",
-    "check-style": "phpcs -p --standard=phpcs.xml src",
-    "fix-style": "phpcbf -p --standard=phpcs.xml src"
+    "test": "vendor/bin/phpunit",
+    "check-style": "vendor/bin/phpcs -p --standard=phpcs.xml app",
+    "fix-style": "vendor/bin/phpcbf -p --standard=phpcs.xml app"
   }
 }
