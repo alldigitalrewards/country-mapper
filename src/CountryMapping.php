@@ -8,7 +8,8 @@ class CountryMapping
      * Using assests flags from our language mapper
      * @var string
      */
-    private $imageBasePath = 'https://storage.googleapis.com/language_mapping/flags';
+    private $imageFlagBasePath = 'https://storage.googleapis.com/language_mapping/flags';
+    private $imageCountryBasePath = 'https://storage.googleapis.com/country_mapper/flags';
 
     public function getMapping()
     {
@@ -16,62 +17,72 @@ class CountryMapping
             [
                 'short_code' => 'US',
                 'name' => 'United States',
-                'flag' => $this->imageBasePath . '/en_US.png',
+                'flag' => $this->imageFlagBasePath . '/en_US.png',
+            ],
+            [
+                'short_code' => 'CA',
+                'name' => 'Canada',
+                'flag' => $this->imageCountryBasePath . '/Canada.png',
+            ],
+            [
+                'short_code' => 'MX',
+                'name' => 'Mexico',
+                'flag' => $this->imageCountryBasePath . '/mexico.jpeg',
             ],
             [
                 'short_code' => 'ES',
                 'name' => 'Spain',
-                'flag' => $this->imageBasePath . '/es_ES.png',
+                'flag' => $this->imageFlagBasePath . '/es_ES.png',
             ],
             [
                 'short_code' => 'DE',
                 'name' => 'Germany',
-                'flag' => $this->imageBasePath . '/de_DE.png',
+                'flag' => $this->imageFlagBasePath . '/de_DE.png',
             ],
             [
                 'short_code' => 'IN',
                 'name' => 'India',
-                'flag' => $this->imageBasePath . '/hi_IN.png',
+                'flag' => $this->imageFlagBasePath . '/hi_IN.png',
             ],
             [
                 'short_code' => 'JP',
                 'name' => 'Japan',
-                'flag' => $this->imageBasePath . '/ja_JP.png',
+                'flag' => $this->imageFlagBasePath . '/ja_JP.png',
             ],
             [
                 'short_code' => 'KR',
                 'name' => 'Korea',
-                'flag' => $this->imageBasePath . '/ko_KR.png',
+                'flag' => $this->imageFlagBasePath . '/ko_KR.png',
             ],
             [
                 'short_code' => 'IT',
                 'name' => 'Italy',
-                'flag' => $this->imageBasePath . '/it_IT.png',
+                'flag' => $this->imageFlagBasePath . '/it_IT.png',
             ],
             [
                 'short_code' => 'MY',
                 'name' => 'Malaysia',
-                'flag' => $this->imageBasePath . '/ms_MY.png',
+                'flag' => $this->imageFlagBasePath . '/ms_MY.png',
             ],
             [
                 'short_code' => 'NL',
                 'name' => 'Netherlands',
-                'flag' => $this->imageBasePath . '/nl_NL.png',
+                'flag' => $this->imageFlagBasePath . '/nl_NL.png',
             ],
             [
                 'short_code' => 'BR',
                 'name' => 'Brazil',
-                'flag' => $this->imageBasePath . '/pt_BR.png',
+                'flag' => $this->imageFlagBasePath . '/pt_BR.png',
             ],
             [
                 'short_code' => 'RU',
                 'name' => 'Russia',
-                'flag' => $this->imageBasePath . '/ru_RU.png',
+                'flag' => $this->imageFlagBasePath . '/ru_RU.png',
             ],
             [
                 'short_code' => 'CN',
                 'name' => 'China',
-                'flag' => $this->imageBasePath . '/zh_Hans_CN.png',
+                'flag' => $this->imageFlagBasePath . '/zh_Hans_CN.png',
             ],
         ];
     }
