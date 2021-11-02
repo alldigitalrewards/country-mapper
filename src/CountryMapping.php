@@ -5,13 +5,13 @@ namespace AllDigitalRewards\CountryMapper;
 class CountryMapping
 {
     /**
-     * Using assests flags from our language mapper
+     * Using assets flags from our language mapper
      * @var string
      */
     private $imageFlagBasePath = 'https://storage.googleapis.com/language_mapping/flags';
     private $imageCountryBasePath = 'https://storage.googleapis.com/country_mapper/flags';
 
-    public function getMapping()
+    public function getMapping(): array
     {
         return [
             [
@@ -85,5 +85,20 @@ class CountryMapping
                 'flag' => $this->imageFlagBasePath . '/zh_Hans_CN.png',
             ],
         ];
+    }
+
+    public function getApprovedCountryList(): array
+    {
+        return array_map(
+            function ($row) {
+                return $row['short_code'];
+            },
+            $this->getMapping()
+        );
+    }
+
+    public function isApprovedCountry(string $country): bool
+    {
+        return in_array($country, $this->getApprovedCountryList());
     }
 }
