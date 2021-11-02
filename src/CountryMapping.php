@@ -93,7 +93,7 @@ class CountryMapping
             function ($row) {
                 return $row['short_code'];
             },
-            (new CountryMapping())->getMapping()
+            $this->getMapping()
         );
     }
 
