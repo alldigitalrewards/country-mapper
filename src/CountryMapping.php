@@ -5,7 +5,7 @@ namespace AllDigitalRewards\CountryMapper;
 class CountryMapping
 {
     /**
-     * Using assests flags from our language mapper
+     * Using assets flags from our language mapper
      * @var string
      */
     private $imageFlagBasePath = 'https://storage.googleapis.com/language_mapping/flags';
