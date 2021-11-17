@@ -18,7 +18,7 @@ class Country extends AbstractEntity
     /**
      * @param mixed $alpha2
      */
-    public function setAlpha2($alpha2): void
+    public function setAlpha2($alpha2)
     {
         $this->alpha2 = $alpha2;
     }
@@ -34,7 +34,7 @@ class Country extends AbstractEntity
     /**
      * @param mixed $numeric
      */
-    public function setNumeric($numeric): void
+    public function setNumeric($numeric)
     {
         $this->numeric = $numeric;
     }

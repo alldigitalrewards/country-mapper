@@ -31,7 +31,11 @@ class CountryInputMapperService
         throw new CountryMapperException('Country: ' . $lookup . ' not found');
     }
 
-    private function findByAlpha2(string $country): ?array
+    /**
+     * @param string $country
+     * @return array|null
+     */
+    private function findByAlpha2(string $country)
     {
         try {
             $countryCodeLookup = new ISO3166();
@@ -41,7 +45,11 @@ class CountryInputMapperService
         }
     }
 
-    private function findByIso(string $country): ?array
+    /**
+     * @param string $country
+     * @return array|null
+     */
+    private function findByIso(string $country)
     {
         try {
             $countryCodeLookup = new ISO3166();
