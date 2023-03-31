@@ -192,7 +192,7 @@ class CountryMapping
             [
                 'short_code' => 'GB',
                 'name' => 'United Kingdom',
-                'flag' => $this->imageFlagBasePath . '/uk.png',
+                'flag' => $this->imageFlagBasePath . '/en_GB.png',
             ],
         ];
     }
