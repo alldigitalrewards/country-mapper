@@ -84,6 +84,116 @@ class CountryMapping
                 'name' => 'China',
                 'flag' => $this->imageFlagBasePath . '/zh_Hans_CN.png',
             ],
+            [
+                'short_code' => 'AT',
+                'name' => 'Austria',
+                'flag' => $this->imageFlagBasePath . '/austria.png',
+            ],
+            [
+                'short_code' => 'BE',
+                'name' => 'Belgium',
+                'flag' => $this->imageFlagBasePath . '/belgium.png',
+            ],
+            [
+                'short_code' => 'BG',
+                'name' => 'Bulgaria',
+                'flag' => $this->imageFlagBasePath . '/bulgaria.png',
+            ],
+            [
+                'short_code' => 'CY',
+                'name' => 'Cyprus',
+                'flag' => $this->imageFlagBasePath . '/cyprus.png',
+            ],
+            [
+                'short_code' => 'CZ',
+                'name' => 'Czech Republic',
+                'flag' => $this->imageFlagBasePath . '/czech_republic.png',
+            ],
+            [
+                'short_code' => 'DK',
+                'name' => 'Denmark',
+                'flag' => $this->imageFlagBasePath . '/denmark.png',
+            ],
+            [
+                'short_code' => 'EE',
+                'name' => 'Estonia',
+                'flag' => $this->imageFlagBasePath . '/estonia.png',
+            ],
+            [
+                'short_code' => 'FI',
+                'name' => 'Finland',
+                'flag' => $this->imageFlagBasePath . '/finland.png',
+            ],
+            [
+                'short_code' => 'FR',
+                'name' => 'France',
+                'flag' => $this->imageFlagBasePath . '/fr_FR.png',
+            ],
+            [
+                'short_code' => 'GR',
+                'name' => 'Greece',
+                'flag' => $this->imageFlagBasePath . '/greece.png',
+            ],
+            [
+                'short_code' => 'IE',
+                'name' => 'Ireland',
+                'flag' => $this->imageFlagBasePath . '/ireland.png',
+            ],
+            [
+                'short_code' => 'LV',
+                'name' => 'Latvia',
+                'flag' => $this->imageFlagBasePath . '/latvia.png',
+            ],
+            [
+                'short_code' => 'LT',
+                'name' => 'Lithuania',
+                'flag' => $this->imageFlagBasePath . '/lithuania.png',
+            ],
+            [
+                'short_code' => 'LU',
+                'name' => 'Luxembourg',
+                'flag' => $this->imageFlagBasePath . '/luxembourg.png',
+            ],
+            [
+                'short_code' => 'MT',
+                'name' => 'Malta',
+                'flag' => $this->imageFlagBasePath . '/malta.png',
+            ],
+            [
+                'short_code' => 'PL',
+                'name' => 'Poland',
+                'flag' => $this->imageFlagBasePath . '/poland.png',
+            ],
+            [
+                'short_code' => 'PT',
+                'name' => 'Portugal',
+                'flag' => $this->imageFlagBasePath . '/portugal.png',
+            ],
+            [
+                'short_code' => 'RO',
+                'name' => 'Romania',
+                'flag' => $this->imageFlagBasePath . '/romania.png',
+            ],
+            [
+                'short_code' => 'SK',
+                'name' => 'Slovakia',
+                'flag' => $this->imageFlagBasePath . '/slovakia.png',
+            ],
+            [
+                'short_code' => 'SI',
+                'name' => 'Slovenia',
+                'flag' => $this->imageFlagBasePath . '/slovenia.png',
+            ],
+            [
+                'short_code' => 'SE',
+                'name' => 'Sweden',
+                'flag' => $this->imageFlagBasePath . '/sweden.png',
+            ],
+            [
+                'short_code' => 'GB',
+                'name' => 'United Kingdom',
+                'flag' => $this->imageFlagBasePath . '/en_GB.png',
+            ],
         ];
     }
 
