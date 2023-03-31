@@ -127,7 +127,7 @@ class CountryMapping
             [
                 'short_code' => 'FR',
                 'name' => 'France',
-                'flag' => $this->imageFlagBasePath . '/france.png',
+                'flag' => $this->imageFlagBasePath . '/fr_FR.png',
             ],
             [
                 'short_code' => 'GR',
