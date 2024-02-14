@@ -9,7 +9,7 @@ class CountryListService
      */
     public function blacklistedCountries(): array
     {
-        return ['AL','BY','CF','HU','CU','KP','CD','IR','IQ','QZ','LB','LY','NI','SO','SS','SD','SY','VE','YE','ZW','ER','MM','AF','CD','ET','RU'];
+        return ['AL','BY','CF','HU','CU','KP','IR','IQ','QZ','LB','LY','NI','SO','SS','SD','SY','VE','YE','ZW','ER','MM','AF','CD','ET','RU'];
     }
 
     /**
