@@ -16,7 +16,6 @@ class ApprovedCountryTest extends TestCase
 
     public function testApprovedCountryReturnsTrue()
     {
-        $this->assertTrue((new CountryMapping())->isApprovedCountry('RU'));
         $this->assertTrue((new CountryMapping())->isApprovedCountry('GB'));
         $this->assertTrue((new CountryMapping())->isApprovedCountry('RO'));
     }

@@ -87,12 +87,6 @@ class CountryMapping
                 'currency' => 'BRL',
             ],
             [
-                'short_code' => 'RU',
-                'name' => 'Russia',
-                'flag' => $this->imageFlagBasePath . '/ru_RU.png',
-                'currency' => 'RUB',
-            ],
-            [
                 'short_code' => 'CN',
                 'name' => 'China',
                 'flag' => $this->imageFlagBasePath . '/zh_Hans_CN.png',
