@@ -120,6 +120,13 @@ class CountryMapping
                 'dial_code' => '+32',
             ],
             [
+                'short_code' => 'BM',
+                'name' => 'Bermuda',
+                'flag' => $this->imageFlagBasePath . '/bermuda.png',
+                'currency' => 'BMD',
+                'dial_code' => '+1',
+            ],
+            [
                 'short_code' => 'BG',
                 'name' => 'Bulgaria',
                 'flag' => $this->imageFlagBasePath . '/bulgaria.png',
