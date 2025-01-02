@@ -358,13 +358,6 @@ class CountryMapping
                 'dial_code' => '+972',
             ],
             [
-                'short_code' => 'IL',
-                'name' => 'Israel',
-                'flag' => $this->imageFlagBasePath . '/he_IL.png',
-                'currency' => 'ILS',
-                'dial_code' => '+972',
-            ],
-            [
                 'short_code' => 'JO',
                 'name' => 'Jordan',
                 'flag' => $this->imageFlagBasePath . '/ar_JO.png',
