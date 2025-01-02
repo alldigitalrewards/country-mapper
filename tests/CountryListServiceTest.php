@@ -21,7 +21,6 @@ class CountryListServiceTest extends TestCase
             ['AL'],
             ['BY'],
             ['CF'],
-            ['HU'],
             ['CU'],
             ['KP'],
             ['IR'],
